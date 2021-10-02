@@ -18,11 +18,14 @@ Pass the integer values to binary numbers that is [001,101,100,010]
  Identifies which values whose binary representation is such that two adjacent bits are different, we can see that are 2 101 and 010, [001,101,100,010].
 Returns the linear combination of the indices in which the values satisfying the criterion are found.
 Indices:
+
    0     1      2  	3
    |       |      |      |
 [001,101,100,010]
+
 Indices are converted to binary states
 |00> |01> |10> |11>
 |         |	      | 	 |
 [001,101,100,010]
+
  The answer would be the superposition of the states |01> and |11> or 1/sqrt(2) * (|01> + |11>)
